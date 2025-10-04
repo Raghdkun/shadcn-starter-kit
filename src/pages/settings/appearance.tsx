@@ -17,9 +17,9 @@ import { Monitor, Moon, Sun } from 'lucide-react';
 import { useState } from 'react';
 
 const breadcrumbs: BreadcrumbItem[] = [
-    { label: 'Dashboard', href: '/' },
-    { label: 'Settings', href: '/settings' },
-    { label: 'Appearance' },
+    { title: 'Dashboard', href: '/' },
+    { title: 'Settings', href: '/settings' },
+    { title: 'Appearance', href: '/settings/appearance'},
 ];
 
 export default function AppearanceSettings() {

@@ -19,7 +19,7 @@ export default function AuthCardLayout({
     description?: string;
 }>) {
     return (
-        <div className="relative grid h-dvh flex flex-col items-center justify-center px-8 sm:px-0 lg:max-w-none lg:grid-cols-2 lg:px-0
+        <div className="relative grid h-dvh flex flex-col items-center justify-center px-8 sm:px-0 lg:max-w-none lg:grid-cols-2 lg:px-0">
             <div className="flex w-full max-w-md flex-col gap-6">
                 <Link
                     to="/"

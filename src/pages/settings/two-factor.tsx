@@ -17,9 +17,9 @@ import { Shield, Smartphone } from 'lucide-react';
 import { useState } from 'react';
 
 const breadcrumbs: BreadcrumbItem[] = [
-    { label: 'Dashboard', href: '/' },
-    { label: 'Settings', href: '/settings' },
-    { label: 'Two-Factor Authentication' },
+    { title: 'Dashboard', href: '/' },
+    { title: 'Settings', href: '/settings' },
+    { title: 'Two-Factor Authentication', href: '/settings/two-factor'},
 ];
 
 export default function TwoFactorSettings() {

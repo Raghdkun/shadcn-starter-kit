@@ -15,9 +15,9 @@ import SettingsLayout from '@/layouts/settings/layout';
 import { type BreadcrumbItem } from '@/types';
 
 const breadcrumbs: BreadcrumbItem[] = [
-    { label: 'Dashboard', href: '/' },
-    { label: 'Settings', href: '/settings' },
-    { label: 'Profile' },
+    { title: 'Dashboard', href: '/' },
+    { title: 'Settings', href: '/settings' },
+    { title: 'Profile', href: '/settings/profile'},
 ];
 
 export default function ProfileSettings() {
